@@ -1,84 +1,126 @@
 ### Step 2A
-
+/c/Users/katie
 
 ### Step 2B
-
+cd desktop
 
 ### Step 2C
-
+$ cd unit1-git-practice/
 
 ### Step 2D
-
+/c/Users/Katie/Desktop/unit1-git-practice
 
 ### Step 2E
-
+ls
 
 ### Step 2F
-
+my-steps.txt
 
 ### Step 2G
-
+cd ~
+cd ..
+cd..
 
 ### Step 2H
-
+/c
 
 ### Step 2I
+'$Recycle.Bin'/                found.001/   found.022/   found.043/
+'$WinREAgent'/                 found.002/   found.023/   found.044/
+ Apps/                         found.003/   found.024/   found.045/
+ DELL/                         found.004/   found.025/   found.046/
+'Documents and Settings'@      found.005/   found.026/   found.047/
+ Drivers/                      found.006/   found.027/   found.048/
+ DumpStack.log                 found.007/   found.028/   found.049/
+ DumpStack.log.tmp             found.008/   found.029/   found.050/
+ FIOD.manifest                 found.009/   found.030/   found.051/
+ Intel/                        found.010/   found.031/   found.052/
+ PerfLogs/                     found.011/   found.032/   found.053/
+'Program Files'/               found.012/   found.033/   found.054/
+'Program Files (x86)'/         found.013/   found.034/   found.055/
+ ProgramData/                  found.014/   found.035/   found.056/
+ Recovery/                     found.015/   found.036/   found.057/
+'System Volume Information'/   found.016/   found.037/   hiberfil.sys
+ Users/                        found.017/   found.038/   pagefile.sys
+ Windows/                      found.018/   found.039/   swapfile.sys
+ bootTel.dat                   found.019/   found.040/
+ dell.sdr                      found.020/   found.041/
+ found.000/                    found.021/   found.042/
+
 
 
 ### Step 2J
-
+cd ~
 
 ### Step 2K
+$ cd Desktop/unit1-git-practice/
 
 
 
 ### Step 3A
-
+mkdir veggies
+mkdir meats
+mkdir desserts
 
 ### Step 3B
-
+mv desserts sweets
 
 ### Step 3C
+$ mkdir proteins
 
 
 ### Step 3D
+$ mv meats proteins
 
 
 ### Step 3E
-
+$ cd veggies
+$ touch carrot.txt
+$ touch pea.txt
 
 ### Step 3F
-
+cd ..
+cd sweets
+touch cookie.txt
 
 ### Step 3G
-
+$ mv cookie.txt donut.txt
 
 ### Step 3H
+cd ..
+touch thing.txt
 
 
 ### Step 3I
-
+cp thing.txt tofu.txt
 
 ### Step 3J
-
+mv tofu.txt proteins
 
 ### Step 3K
-
+cp thing.txt crab.txt
+mv crab.txt proteins/meats/
 
 ### Step 3L
-
+rm thing.txt
 
 ### Step 3M
-
+$ cp -r veggies plants
 
 ### Step 3N
-
-
+$ mkdir drinks
+$ rm -r drinks
 
 ### Step 4
-
+git init
+git add .
+git commit m- "first commit"
 
 ### Step 5
+$ git remote add origin https://github.com/UnrealEstate1/unit1-git-practice.git
+git branch -M main
+git push -u origin main
+
 
 
 ### Step 6
